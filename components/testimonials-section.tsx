@@ -1,31 +1,25 @@
 import { Card, CardContent } from '@/components/ui/card';
-import { Star } from 'lucide-react';
+import { InfoIcon, Shield, Star } from 'lucide-react';
 
 export function TestimonialsSection() {
   const testimonials = [
     {
-      name: 'Sarah Johnson',
-      role: 'Voyageuse Fréquente',
+      name: 'Utilisation de la Géolocalisation',
+
       content:
-        "Cette application m'a sauvé la vie lors de mes voyages d'affaires. Je peux toujours trouver un distributeur à proximité sans aucun problème.",
-      rating: 5,
-      avatar: '/professional-woman-smiling.png',
+        'L’application FIN ATM nécessite l’autorisation de votre GPS pour localiser les distributeurs automatiques à proximité. Cette fonctionnalité est essentielle pour vous offrir une expérience optimisée. Aucune donnée de localisation n’est stockée ou partagée.',
     },
     {
-      name: 'Mike Chen',
-      role: 'Étudiant',
+      name: 'Absence de Collecte de Données',
+
       content:
-        'Super facile à utiliser et toujours précise. Les mises à jour en temps réel sur les frais sont vraiment utiles pour le budget.',
-      rating: 5,
-      avatar: '/young-man-smiling.png',
+        'Nous garantissons que FIN ATM ne collecte, ne stocke ni ne partage aucune donnée personnelle ou relative à vos recherches. Toutes les informations affichées proviennent de sources officielles reconnues.',
     },
     {
-      name: 'Lisa Rodriguez',
-      role: 'Propriétaire de Petite Entreprise',
+      name: 'Sécurité et Confidentialité',
+
       content:
-        "Je recommande cette application à tous mes clients. Elle est fiable et l'interface est si intuitive.",
-      rating: 5,
-      avatar: '/smiling-businesswoman.png',
+        'Aucune donnée utilisateur n’est conservée dans nos systèmes. Nous assurons que toutes les communications sont sécurisées et que vos informations personnelles restent confidentielles.',
     },
   ];
 
@@ -34,11 +28,11 @@ export function TestimonialsSection() {
       <div className="container mx-auto">
         <div className="text-center space-y-4 mb-16 mx-4 md:mx-0">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground">
-            Ce Que Disent Nos Utilisateurs
+            Sécurité et Confidentialité
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Rejoignez des milliers d'utilisateurs satisfaits qui font confiance
-            à Find ATM
+          <p>
+            En utilisant l’application FIN ATM, vous acceptez ces termes et
+            conditions.
           </p>
         </div>
 
@@ -47,8 +41,8 @@ export function TestimonialsSection() {
             <Card key={index} className="bg-card border-border">
               <CardContent className="p-6">
                 <div className="flex items-center space-x-1 mb-4">
-                  {[...Array(testimonial.rating)].map((_, i) => (
-                    <Star key={i} className="w-5 h-5 fill-accent text-accent" />
+                  {[...Array(testimonial)].map((_, i) => (
+                    <Shield key={i} className="w-5 h-5 text-zinc-300" />
                   ))}
                 </div>
 
@@ -57,17 +51,9 @@ export function TestimonialsSection() {
                 </p>
 
                 <div className="flex items-center space-x-3">
-                  <img
-                    src={testimonial.avatar || '/placeholder.svg'}
-                    alt={testimonial.name}
-                    className="w-12 h-12 rounded-full object-cover"
-                  />
                   <div>
                     <p className="font-semibold text-card-foreground">
                       {testimonial.name}
-                    </p>
-                    <p className="text-sm text-muted-foreground">
-                      {testimonial.role}
                     </p>
                   </div>
                 </div>

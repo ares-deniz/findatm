@@ -17,100 +17,12 @@ export function Footer() {
               vos besoins quotidiens.
             </p>
           </div>
-
-          <div>
-            <h3 className="font-semibold mb-4">Produit</h3>
-            <ul className="space-y-2 text-sidebar-foreground/80">
-              <li>
-                <a
-                  href="#"
-                  className="hover:text-sidebar-foreground transition-colors"
-                >
-                  Fonctionnalités
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="hover:text-sidebar-foreground transition-colors"
-                >
-                  Comment ça Marche
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="hover:text-sidebar-foreground transition-colors"
-                >
-                  Tarifs
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="font-semibold mb-4">Support</h3>
-            <ul className="space-y-2 text-sidebar-foreground/80">
-              <li>
-                <a
-                  href="#"
-                  className="hover:text-sidebar-foreground transition-colors"
-                >
-                  Centre d'Aide
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="hover:text-sidebar-foreground transition-colors"
-                >
-                  Nous Contacter
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="hover:text-sidebar-foreground transition-colors"
-                >
-                  Politique de Confidentialité
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="font-semibold mb-4">Se Connecter</h3>
-            <ul className="space-y-2 text-sidebar-foreground/80">
-              <li>
-                <a
-                  href="#"
-                  className="hover:text-sidebar-foreground transition-colors"
-                >
-                  Twitter
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="hover:text-sidebar-foreground transition-colors"
-                >
-                  Facebook
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="hover:text-sidebar-foreground transition-colors"
-                >
-                  LinkedIn
-                </a>
-              </li>
-            </ul>
-          </div>
         </div>
 
         <div className="border-t border-sidebar-border mt-8 pt-8 text-center text-sidebar-foreground/60">
-          <p>&copy; 2024 Find ATM. Tous droits réservés.</p>
+          <p>
+            &copy; {new Date().getFullYear()} Find ATM. Tous droits réservés.
+          </p>
         </div>
       </div>
     </footer>

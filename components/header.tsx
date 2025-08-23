@@ -9,7 +9,7 @@ export function Header() {
         <div className="ml-4">
           <a href="#">
             <Button className="bg-green-600 text-xl hover:bg-primary/90 text-primary-foreground mr-4">
-              A
+              NL
             </Button>
           </a>
 
@@ -27,7 +27,7 @@ export function Header() {
             href="#testimonials"
             className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
           >
-            Avis
+            Sécurité et Confidentialité
           </a>
           <a
             href="#contact"
