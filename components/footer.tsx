@@ -2,7 +2,7 @@ export function Footer() {
   return (
     <footer id="contact" className="bg-sidebar text-sidebar-foreground py-12">
       <div className="container mx-auto">
-        <div className="grid md:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-4 gap-8 mx-5 md:mx-0">
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-sidebar-accent">
