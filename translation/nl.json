@@ -1,0 +1,74 @@
+{
+  "nav": {
+    "lang": "FR",
+    "home": "Functies",
+    "security": "Beveiliging en vertrouwelijkheid",
+    "contact": "Contact"
+  },
+  "cta": {
+    "download": "Downloaden"
+  },
+  "hero": {
+    "welcome": "Vind de Dichtstbijzijnde Geldautomaat in Enkele Seconden.",
+    "subtitle": "Handige, betrouwbare en gebruiksvriendelijke geldautomaatzoeker die werkt waar je ook bent in België.",
+    "button": "Aan de slag",
+    "appStore": "Downloaden op",
+    "googlePlay": "Binnenkort beschikbaar"
+  },
+  "cards": {
+    "one": {
+      "title": "Vind eenvoudig geldautomaten",
+      "desc": "Vind de dichtstbijzijnde geldautomaten met nauwkeurige GPS-locatie en stapsgewijze aanwijzingen."
+    },
+    "two": {
+      "title": "Realtime-updates",
+      "desc": "Ontvang live informatie over beschikbaarheid, kosten en openingstijden."
+    },
+    "three": {
+      "title": "Gebruiksvriendelijke interface",
+      "desc": "Eenvoudig en intuïtief ontwerp dat het zoeken naar geldautomaten snel en moeiteloos maakt."
+    }
+  },
+  "main": {
+    "title": "Waarom kiezen voor Find ATM?",
+    "desc": "Ontdek de functies die van onze app de meest betrouwbare geldautomaat-zoeker maken."
+  },
+  "cardOne": {
+    "title": "Vind eenvoudig geldautomaten",
+    "desc": "Vind de dichtstbijzijnde geldautomaten met nauwkeurige GPS-locatie en stapsgewijze aanwijzingen."
+  },
+  "cardTwo": {
+    "title": "Realtime-updates",
+    "desc": "Ontvang live informatie over beschikbaarheid, kosten en openingstijden."
+  },
+  "cardThree": {
+    "title": "Gebruiksvriendelijke interface",
+    "desc": "Eenvoudig en intuïtief ontwerp dat het zoeken naar geldautomaten snel en moeiteloos maakt."
+  },
+  "section": {
+    "title": "Beveiliging en vertrouwelijkheid",
+    "desc": "Door de FIN ATM-app te gebruiken, gaat u akkoord met deze algemene voorwaarden."
+  },
+  "sectionOne": {
+    "title": "Gebruik van geolocatie",
+    "desc": "De Find ATM-app heeft toestemming nodig voor uw GPS om geldautomaten in de buurt te vinden. Deze functie is essentieel om u een geoptimaliseerde ervaring te bieden. Er worden geen locatiegegevens opgeslagen of gedeeld."
+  },
+  "sectionTwo": {
+    "title": "Geen gegevensverzameling",
+    "desc": "We garanderen dat Find ATM geen persoonlijke gegevens of gegevens met betrekking tot uw zoekopdrachten verzamelt, opslaat of deelt. Alle weergegeven informatie is afkomstig van erkende officiële bronnen."
+  },
+  "sectionThree": {
+    "title": "Beveiliging en vertrouwelijkheid",
+    "desc": "Er worden geen gebruikersgegevens in onze systemen bewaard. We zorgen ervoor dat alle communicatie veilig is en dat uw persoonlijke informatie vertrouwelijk blijft."
+  },
+  "footer": {
+    "title": "Klaar om de dichtstbijzijnde geldautomaat te vinden?",
+    "desc": "Download Find ATM vandaag nog en maak u nooit meer zorgen over het vinden van contant geld.",
+    "button": "Downloaden",
+    "appStore": "Downloaden op",
+    "googlePlay": "Binnenkort beschikbaar",
+    "info": "Find ATM",
+    "infoDesc": "De meest betrouwbare geldautomaatzoeker voor uw dagelijkse behoeften.",
+    "copy": "Alle rechten voorbehouden"
+  }
+}

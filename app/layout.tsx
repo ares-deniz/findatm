@@ -4,6 +4,7 @@ import { GeistMono } from 'geist/font/mono';
 import { DM_Sans } from 'next/font/google';
 import { ThemeProvider } from '@/components/theme-provider';
 import './globals.css';
+import { LanguageProvider } from '@/components/providers/language-provider';
 
 const dmSans = DM_Sans({
   subsets: ['latin'],
@@ -25,7 +26,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="fr" suppressHydrationWarning>
       <head>
         <style>{`
 html {
@@ -42,7 +43,7 @@ html {
           enableSystem
           disableTransitionOnChange
         >
-          {children}
+          <LanguageProvider>{children}</LanguageProvider>
         </ThemeProvider>
       </body>
     </html>

@@ -1,0 +1,74 @@
+{
+  "nav": {
+    "lang": "NL",
+    "home": "Fonctionnalités",
+    "security": "Sécurité et Confidentialité",
+    "contact": "Contact"
+  },
+  "cta": {
+    "download": "Télécharger"
+  },
+  "hero": {
+    "welcome": "Trouvez le Distributeur le Plus Proche en Quelques Secondes.",
+    "subtitle": "Localisateur de distributeurs pratique, fiable et facile à utiliser qui fonctionne où que vous soyez en Belgique.",
+    "button": "Commencer",
+    "appStore": "Télécharger sur",
+    "googlePlay": "Bientôt disponible"
+  },
+  "cards": {
+    "one": {
+      "title": "Localisez les Distributeurs Facilement",
+      "desc": "Trouvez les distributeurs les plus proches avec une localisation GPS précise et des directions étape par étape."
+    },
+    "two": {
+      "title": "Mises à Jour en Temps Réel",
+      "desc": "Obtenez des informations en direct sur la disponibilité des distributeurs, les frais et les heures d'ouverture."
+    },
+    "three": {
+      "title": "Interface Conviviale",
+      "desc": "Design simple et intuitif qui rend la recherche de distributeurs rapide et sans effort."
+    }
+  },
+  "main": {
+    "title": "Pourquoi choisir Find ATM ?",
+    "desc": "Découvrez les fonctionnalités qui font de notre application le localisateur de distributeurs le plus fiable."
+  },
+  "cardOne": {
+    "title": "Localisez les distributeurs facilement",
+    "desc": "Trouvez les distributeurs les plus proches avec une localisation GPS précise et des directions étape par étape."
+  },
+  "cardTwo": {
+    "title": "Mises à jour en temps réel",
+    "desc": "Obtenez des informations en direct sur la disponibilité des distributeurs, les frais et les heures d'ouverture."
+  },
+  "cardThree": {
+    "title": "Interface conviviale",
+    "desc": "Design simple et intuitif qui rend la recherche de distributeurs rapide et sans effort."
+  },
+  "section": {
+    "title": "Sécurité et Confidentialité",
+    "desc": "En utilisant l’application FIN ATM, vous acceptez ces termes et conditions."
+  },
+  "sectionOne": {
+    "title": "Utilisation de la géolocalisation",
+    "desc": "L’application Find ATM nécessite l’autorisation de votre GPS pour localiser les distributeurs automatiques à proximité. Cette fonctionnalité est essentielle pour vous offrir une expérience optimisée. Aucune donnée de localisation n’est stockée ou partagée."
+  },
+  "sectionTwo": {
+    "title": "Absence de collecte de données",
+    "desc": "Nous garantissons que Find ATM ne collecte, ne stocke ni ne partage aucune donnée personnelle ou relative à vos recherches. Toutes les informations affichées proviennent de sources officielles reconnues."
+  },
+  "sectionThree": {
+    "title": "Sécurité et confidentialité",
+    "desc": "Aucune donnée utilisateur n’est conservée dans nos systèmes. Nous assurons que toutes les communications sont sécurisées et que vos informations personnelles restent confidentielles."
+  },
+  "footer": {
+    "title": "Prêt à trouver votre distributeur le plus proche ?",
+    "desc": "Téléchargez Find ATM dès aujourd'hui et ne vous souciez plus jamais de trouver de l'argent liquide.",
+    "button": "Télécharger",
+    "appStore": "Télécharger sur",
+    "googlePlay": "Bientôt disponible",
+    "info": "Find ATM",
+    "infoDesc": "L'application de localisation de distributeurs la plus fiable pour vos besoins quotidiens.",
+    "copy": "Tous droits réservés"
+  }
+}
