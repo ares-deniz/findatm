@@ -2,12 +2,16 @@
 
 import { Button } from '@/components/ui/button';
 import { useLanguage } from './providers/language-provider';
+import BackTopButton from './BackTopBtn';
 
 export function HeroSection() {
   const { t } = useLanguage();
 
   return (
-    <section className="relative min-h-[100vh] flex items-center justify-center overflow-hidden">
+    <section
+      id="home"
+      className="relative min-h-[100vh] flex items-center justify-center overflow-hidden"
+    >
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
@@ -21,7 +25,7 @@ export function HeroSection() {
 
       {/* Content */}
       <div className="relative z-10 container text-center space-y-6 max-w-4xl">
-        <h1 className="text-4xl md:text-6xl font-bold text-foreground leading-tight">
+        <h1 className="text-4xl md:text-6xl font-extrabold bg-gradient-to-r from-emerald-500 via-blue-600 to-teal-500 bg-clip-text text-transparent leading-tight">
           {t.hero.welcome}
         </h1>
 
@@ -60,6 +64,9 @@ export function HeroSection() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="absolute bottom-4 right-2 z-50">
+        <BackTopButton />
       </div>
     </section>
   );
