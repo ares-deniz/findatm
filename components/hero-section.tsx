@@ -44,7 +44,7 @@ export function HeroSection() {
           </a>
 
           <div className="flex flex-col items-center space-x-4 mx-auto justify-center pt-5">
-            <div className="flex space-x-4">
+            <div className="flex space-x-4 mx-auto">
               <div className="flex items-center gap-2 bg-black text-white px-4 py-2 rounded-lg hover:bg-gray-800 transition-colors cursor-pointer">
                 <svg
                   className="w-6 h-6"
