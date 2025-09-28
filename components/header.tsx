@@ -64,7 +64,13 @@ export function Header() {
             {isMenuOpen ? <X size={20} /> : <Menu size={20} />}
           </Button>
           <Button className="bg-green-600 hover:bg-primary/90 text-primary-foreground mr-4 hidden md:inline-flex">
-            {t.cta.download}
+            <a
+              href="https://apps.apple.com/app/findatm/id6752733983"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {t.cta.download}
+            </a>
           </Button>
         </div>
       </div>
